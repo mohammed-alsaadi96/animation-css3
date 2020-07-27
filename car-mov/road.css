@@ -1,0 +1,24 @@
+div{
+    width: 100%;
+    height: 87rem;
+    background-image: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 72px;
+}
+.y{
+    padding-top: 789px;
+}
+.r{
+
+}
+.b{
+    
+}
+
+

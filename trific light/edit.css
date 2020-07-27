@@ -1,0 +1,58 @@
+.rectangle{
+    width: 110px;
+    height: 261px;
+    border: 4px solid black;
+}
+.red{
+    width: 76px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+    animation-name: red;
+    animation-duration: 5s;
+    
+
+}
+@keyframes red {
+    from {background-color: white;}
+    to {background-color: red;}
+  }
+
+.yalow{
+
+    width: 76px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+    animation-name: yalow;
+    animation-delay: 5s;
+    animation-duration: 5s;
+}
+@keyframes yalow {
+    from {background-color: white;}
+    to {background-color: yellow;}
+  }
+
+.green{
+    width: 76px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+    animation-name: green;
+    animation-delay: 10s;
+    animation-duration: 5s;
+
+}
+@keyframes green {
+    from {background-color: white;}
+    to {background-color: green;}
+  }
